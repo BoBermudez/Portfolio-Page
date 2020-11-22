@@ -1,0 +1,57 @@
+header, footer /*sets header and footer colors to the same*/{
+  background-color: #b21e35;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+main {
+  background-color: black;
+}
+
+hr /*dotted border between sections*/ {
+  border: 2px dotted #b21e35;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 48px;
+  height: 30px;
+}
+
+.profile-styling { /*adjusts width for profile picture on home page*/
+  width: 300px;
+}
+
+img { /*centers all images and adjusts their width to fit on screen */
+  width: 900px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+h2, h3, h4 /*aligns all headings*/{
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+}
+
+h2, h3, h4, p, a, ul, ol, li /*creates uniform font throughout site*/ {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Next two blocks of code align both ul and ol (lists) to the center*/
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.container {
+  width: auto;
+  padding: 2em;
+  text-align: center;
+}
+
