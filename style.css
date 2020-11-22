@@ -1,4 +1,5 @@
-header, footer /*sets header and footer colors to the same*/{
+/*sets header and footer colors to the same*/
+header, footer {
   background-color: #b21e35;
   color: white;
   text-align: center;
@@ -9,7 +10,8 @@ main {
   background-color: black;
 }
 
-hr /*dotted border between sections*/ {
+/*dotted border between sections*/
+hr {
   border: 2px dotted #b21e35;
 }
 
@@ -19,18 +21,21 @@ h1 {
   height: 30px;
 }
 
-.profile-styling { /*adjusts width for profile picture on home page*/
+/*adjusts width for profile picture on home page*/
+.profile-styling { 
   width: 300px;
 }
 
-img { /*centers all images and adjusts their width to fit on screen */
+/*centers all images and adjusts their width to fit on screen */
+img { 
   width: 900px;
   display: block;
   margin-left: auto; 
   margin-right: auto;
 }
 
-h2, h3, h4 /*aligns all headings*/{
+ /*aligns all headings*/
+h2, h3, h4 {
   text-align: center;
   padding: 10px;
   margin-left: auto;
@@ -38,7 +43,8 @@ h2, h3, h4 /*aligns all headings*/{
   height: 20px;
 }
 
-h2, h3, h4, p, a, ul, ol, li /*creates uniform font throughout site*/ {
+/*creates uniform font throughout site*/
+h2, h3, h4, p, a, ul, ol, li {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
